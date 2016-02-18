@@ -437,7 +437,7 @@ var wringRule = function (rule) {
   var decls;
   var parent;
   var selectors;
-  rule.raws.before = "";
+  rule.raws.before = "\n";//分行显示。
   rule.raws.between = "";
   rule.raws.semicolon = false;
   rule.raws.after = "";
